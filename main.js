@@ -33,7 +33,7 @@ function igual() {
 	operatorB = resultScreen.textContent;
 	if (operatorA == 0) {
 		alert('Ingrese la operacion completa');
-		cleanAllOp();
+		
 	}else{
 		switch(operationProgress){
     case "+":
